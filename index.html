@@ -1,31 +1,28 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
 </head>
 <body>
-    {% extends 'base.html' %}
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        {% block content %}
-        <h1>Home</h1>
-        <p>Este es el contenido de la página de inicio.</p>
-        <!-- Agrega más contenido aquí -->
-        {% endblock %}
-        
-    </main>
-    <footer>
-        <p>&copy; Virginia</p>
-    </footer>
+
+<div id="menu-container"></div>
+
+<div id="contenido">
+  <!-- El resto del contenido de tu página va aquí -->
+</div>
+
+<script>
+  // Cargar el contenido del menú desde menu.html
+  fetch('menu.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('menu-container').innerHTML = html;
+    })
+    .catch(error => console.error('Error al cargar el menú:', error));
+</script>
+
 </body>
 </html>
