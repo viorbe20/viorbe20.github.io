@@ -16,8 +16,11 @@
         </nav>
     </header>
     <main>
-        <h1>Welcome to my website</h1>
-        <p>This is a simple website created by me.</p>
+        {% extends 'base.html' %}
+        {% block content %}
+        <h1>Home</h1>
+        <p>este es el index</p>
+        {% endblock %}
     </main>
     <footer>
         <p>&copy; Virginia</p>
