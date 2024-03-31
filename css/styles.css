@@ -21,32 +21,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
-* #about-me .about-me-content {
+* #about-me #profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* #about-me #profile-pic-container img {
+  width: 60%;
+}
+* #about-me #text-aboutme-container {
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-* #about-me .about-me-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 2%;
-}
-* #about-me .about-me-content p {
+* #about-me #text-aboutme-container p {
   font-size: 1.2rem;
   margin-bottom: 2%;
-}
-* #about-me .about-me-content a {
-  padding: 1% 2%;
-  border: 1px solid #FFFFFF;
-  border-radius: 5px;
-  color: #FFFFFF;
-  text-decoration: none;
-  transition: 0.3s;
-}
-* #about-me .about-me-content a:hover {
-  background-color: #FFFFFF;
-  color: #868E96;
 }/*# sourceMappingURL=styles.css.map */

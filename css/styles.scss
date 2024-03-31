@@ -27,39 +27,32 @@ $light-grey: #868E96;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: 90vh;
 
-        .about-me-content {
+        #profile-pic-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 60%;
+            }
+        }
+
+        #text-aboutme-container {
             width: 50%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
 
-            h1 {
-                font-size: 2.5rem;
-                margin-bottom: 2%;
-            }
-
             p {
                 font-size: 1.2rem;
                 margin-bottom: 2%;
             }
 
-            a {
-                padding: 1% 2%;
-                border: 1px solid $white;
-                border-radius: 5px;
-                color: $white;
-                text-decoration: none;
-                transition: 0.3s;
-
-                &:hover {
-                    background-color: $white;
-                    color: $light-grey;
-                }
-            }
         }
+
     }
 
 }
