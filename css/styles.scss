@@ -1,0 +1,65 @@
+$white: #FFFFFF;
+$light-grey: #868E96;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    *background-color: $white;
+
+    .navbar {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 0 2%;
+            font-size: 1.2rem;
+        }
+    }
+
+    #about-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        .about-me-content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                font-size: 2.5rem;
+                margin-bottom: 2%;
+            }
+
+            p {
+                font-size: 1.2rem;
+                margin-bottom: 2%;
+            }
+
+            a {
+                padding: 1% 2%;
+                border: 1px solid $white;
+                border-radius: 5px;
+                color: $white;
+                text-decoration: none;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: $white;
+                    color: $light-grey;
+                }
+            }
+        }
+    }
+
+}
