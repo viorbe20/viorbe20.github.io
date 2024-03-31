@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    {% extends 'base.html' %}
     <header>
         <nav>
             <ul>
@@ -16,13 +17,15 @@
         </nav>
     </header>
     <main>
-        {% extends 'base.html' %}
         {% block content %}
         <h1>Home</h1>
-        <p>este es el index</p>
+        <p>Este es el contenido de la página de inicio.</p>
+        <!-- Agrega más contenido aquí -->
         {% endblock %}
+        
     </main>
     <footer>
         <p>&copy; Virginia</p>
     </footer>
+</body>
 </html>
