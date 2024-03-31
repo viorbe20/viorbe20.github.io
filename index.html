@@ -16,7 +16,7 @@
 
 <script>
   // Cargar el contenido del menú desde menu.html
-  fetch('menu.html')
+  fetch('./templates/menu.html')
     .then(response => response.text())
     .then(html => {
       document.getElementById('menu-container').innerHTML = html;
