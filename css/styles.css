@@ -3,7 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
   font-family: "Montserrat", "Lato", sans-serif;
-  *background-color: #FFFFFF;
+  *background-color: #ffffff;
 }
 * .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -25,11 +25,50 @@
 }
 * #about-me #profile-pic-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 * #about-me #profile-pic-container img {
   width: 60%;
+}
+* #about-me #profile-pic-container #social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* #about-me #profile-pic-container #social-media-container a {
+  margin: 0 5%;
+  font-size: 3rem;
+}
+* #about-me #profile-pic-container #social-media-container a span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+* #about-me #profile-pic-container #social-media-container a span i {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+* #about-me #profile-pic-container #social-media-container a:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+* #about-me #profile-pic-container #social-media-container a .fa-github {
+  background-color: #6e5494;
+}
+* #about-me #profile-pic-container #social-media-container a .fa-linkedin {
+  background-color: #0077b5;
+}
+* #about-me #profile-pic-container #social-media-container a .fa-twitter-x {
+  background-color: #1da1f2;
+}
+* #about-me #profile-pic-container #social-media-container a .fa-envelope-at {
+  background-color: #ff6b6b;
 }
 * #about-me #text-aboutme-container {
   width: 50%;
@@ -41,4 +80,7 @@
 * #about-me #text-aboutme-container p {
   font-size: 1.2rem;
   margin-bottom: 2%;
+}
+* #skills {
+  height: 90vh;
 }/*# sourceMappingURL=styles.css.map */
