@@ -85,7 +85,6 @@
   height: 90vh;
 }
 * #ai-bd-section #ai-bd-text {
-  background-color: aliceblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
