@@ -103,7 +103,28 @@ $light-grey: #868e96;
         }
     }
 
-    #skills {
+    #ai-bd-section {
         height: 90vh;
+
+        #ai-bd-text {
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    font-size: 1rem;
+                    line-height: 2rem;
+                    
+                    i {
+                        color: #6e5494;
+                    }
+                }
+            }
+        }
     }
 }
