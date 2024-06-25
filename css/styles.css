@@ -81,6 +81,10 @@
   font-size: 1.2rem;
   margin-bottom: 2%;
 }
+* #languages-section #languages-graph {
+  width: 100%;
+  height: 500px;
+}
 * #ai-bd-section {
   height: 90vh;
 }
@@ -109,4 +113,11 @@
 * #ai-bd-section #ai-bd-graph #technologies-graph {
   width: 100%;
   height: 500px;
+}
+* #daw-section {
+  height: 90vh;
+}
+* #daw-section #daw-chart {
+  width: 100%;
+  height: 550px;
 }/*# sourceMappingURL=styles.css.map */
