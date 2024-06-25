@@ -95,6 +95,16 @@
   width: 1000px;
   height: 400px;
 }
+* #ai-bd-section #machine-learning-section {
+  display: flex;
+}
+* #ai-bd-section #machine-learning-section #machine-learning-description {
+  width: 90%;
+}
+* #ai-bd-section #machine-learning-section #machine-learning-graph {
+  width: 1000px;
+  height: 400px;
+}
 * #daw-section {
   height: 90vh;
 }

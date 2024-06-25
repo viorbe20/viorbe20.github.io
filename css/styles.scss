@@ -127,6 +127,19 @@ $light-grey: #868e96;
             }
     
         }
+
+        #machine-learning-section {
+            display: flex;
+            
+            #machine-learning-description {
+                width: 90%;
+            }
+            #machine-learning-graph {
+                width: 1000px;
+                height: 400px;
+            }
+    
+        }
         
     }
 
