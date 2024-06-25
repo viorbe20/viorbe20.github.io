@@ -114,39 +114,20 @@ $light-grey: #868e96;
     
 
     #ai-bd-section {
-        height: 90vh;
 
-        #ai-bd-text {
+        #nlp-section {
             display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
 
-            ul {
-                list-style-type: none;
-
-                li {
-                    font-size: 1rem;
-                    line-height: 2rem;
-                    
-                    i {
-                        color: #6e5494;
-                    }
-                }
+            #nlp-description {
+                width: 90%;
             }
-        }
-
-        #ai-bd-graph {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            #specialization-graph{
-                width: 100%;
-                height: 500px;
+            #nlp-graph {
+                width: 1000px;
+                height: 400px;
             }
+    
         }
+        
     }
 
     #daw-section {

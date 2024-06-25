@@ -85,34 +85,15 @@
   width: 100%;
   height: 500px;
 }
-* #ai-bd-section {
-  height: 90vh;
-}
-* #ai-bd-section #ai-bd-text {
+* #ai-bd-section #nlp-section {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
-* #ai-bd-section #ai-bd-text ul {
-  list-style-type: none;
+* #ai-bd-section #nlp-section #nlp-description {
+  width: 90%;
 }
-* #ai-bd-section #ai-bd-text ul li {
-  font-size: 1rem;
-  line-height: 2rem;
-}
-* #ai-bd-section #ai-bd-text ul li i {
-  color: #6e5494;
-}
-* #ai-bd-section #ai-bd-graph {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-* #ai-bd-section #ai-bd-graph #specialization-graph {
-  width: 100%;
-  height: 500px;
+* #ai-bd-section #nlp-section #nlp-graph {
+  width: 1000px;
+  height: 400px;
 }
 * #daw-section {
   height: 90vh;
