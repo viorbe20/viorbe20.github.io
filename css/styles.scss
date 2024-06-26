@@ -127,11 +127,9 @@ $light-grey: #868e96;
                 align-items: center;
                 width: 90%;
             
-            h4 {
-                margin: 3% 0 3% 0;
-            }
-
-
+                h4 {
+                    margin: 3% 0 3% 0;
+                }
 
             }
             #nlp-graph {
@@ -143,8 +141,13 @@ $light-grey: #868e96;
 
         #machine-learning-section {
             display: flex;
+            margin: 5% 0 5% 0;
             
             #machine-learning-description {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 width: 90%;
             }
             #machine-learning-graph {
@@ -152,6 +155,28 @@ $light-grey: #868e96;
                 height: 400px;
             }
     
+        }
+
+        #big-data-section {
+            display: flex;
+            margin: 5% 0 5% 0;
+
+            #big-data-description {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+            
+                h4 {
+                    margin: 3% 0 3% 0;
+                }
+
+            }
+            #big-data-graph {
+                width: 1000px;
+                height: 400px;
+            }
         }
         
     }
