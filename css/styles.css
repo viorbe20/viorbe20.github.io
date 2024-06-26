@@ -136,10 +136,11 @@
   width: 1000px;
   height: 400px;
 }
-* #daw-section {
-  height: 90vh;
-}
-* #daw-section #daw-chart {
+* #daw-section #daw-graph {
   width: 100%;
   height: 550px;
+}
+* #daw-section #daw-description {
+  display: flex;
+  margin: 5% 0 5% 0;
 }/*# sourceMappingURL=styles.css.map */
