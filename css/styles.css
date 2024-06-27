@@ -147,44 +147,53 @@
   display: flex;
 }
 * #projects-section #projects-cards-ia {
-  width: 100%;
-  height: 20%;
+  background-color: rgb(183, 183, 223);
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-* #projects-section #projects-cards-ia .card-project {
-  width: 30%;
-  height: 100%;
+* #projects-section #projects-cards-ia .card-ia {
+  width: 20%;
   background-color: #F8F9FA;
   margin: 2%;
   padding: 1.5%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
-* #projects-section #projects-cards-ia .card-project img {
+* #projects-section #projects-cards-ia .card-ia .card-img {
   width: 100%;
-  height: 50%;
+  transition: transform 0.5s ease;
 }
-* #projects-section #projects-cards-ia .card-project .card-body .card-title {
-  margin: 2.5% 0 2.5% 0;
+* #projects-section #projects-cards-ia .card-ia i {
+  color: #6e5494;
+}
+* #projects-section #projects-cards-ia .card-ia .card-img:hover {
+  border-radius: 10px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+* #projects-section #projects-cards-ia .card-ia .card-body .card-title {
+  margin: 5% 0 2.5% 0;
   text-align: center;
   color: #6e5494;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
-* #projects-section #projects-cards-ia .card-project .card-body .card-text {
+* #projects-section #projects-cards-ia .card-ia .card-body .card-text {
   margin: 2% 0 2% 0;
   text-align: justify;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   margin: 2.5% 0 5% 0;
 }
-* #projects-section #projects-cards-ia .card-project .card-body .card-button {
+* #projects-section #projects-cards-ia .card-ia .card-body .card-button {
   background-color: #6e5494;
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.2rem;
-  padding: 3%;
+  font-size: 1rem;
+  padding: 5%;
   border-radius: 10px;
 }
-* #projects-section #projects-cards-ia .card-project .card-body .card-button:hover {
+* #projects-section #projects-cards-ia .card-ia .card-body .card-button:hover {
   background-color: #ffffff;
   color: #6e5494;
   border: 1px solid #6e5494;
