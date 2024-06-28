@@ -210,4 +210,23 @@
 }
 * #projects-section #projects-cards-ia .card-ia .card-footer .fa-github {
   color: #333;
+}
+* #education-section #education-oficial-container {
+  background-color: #b0b795;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+* #education-section #education-oficial-container .card-oficial {
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 2%;
+  color: #ffffff;
+}
+* #education-section #education-oficial-container .card-oficial.tech {
+  background-color: #54e854;
+}
+* #education-section #education-oficial-container .card-oficial.lang {
+  background-color: #b07bce;
 }/*# sourceMappingURL=styles.css.map */

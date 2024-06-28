@@ -285,5 +285,32 @@ $light-violet: #a495b7;
             } // End of card-ia
         } // End of projects-cards-ia
 
-    } // End of projects-section 
+    } // End of projects-section
+    
+    #education-section {
+        #education-oficial-container {
+            background-color: #b0b795;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .card-oficial {
+                width: 30%;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                border-radius: 10px;
+                padding: 2%;
+                color: $white;
+            }
+
+            .card-oficial.tech {
+                background-color: #54e854;
+            }
+
+            .card-oficial.lang {
+                background-color: #b07bce;
+            }
+
+
+        }
+    }
 } // End of * selector 
