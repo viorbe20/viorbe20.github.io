@@ -88,64 +88,71 @@
   width: 100%;
   height: 500px;
 }
-* #ai-bd-section #nlp-section {
+* #technologies-section #nlp-section {
   display: flex;
   margin: 5% 0 5% 0;
 }
-* #ai-bd-section #nlp-section #nlp-description {
+* #technologies-section #nlp-section #nlp-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 90%;
 }
-* #ai-bd-section #nlp-section #nlp-description h4 {
+* #technologies-section #nlp-section #nlp-description h4 {
   margin: 3% 0 3% 0;
 }
-* #ai-bd-section #nlp-section #nlp-graph {
+* #technologies-section #nlp-section #nlp-graph {
   width: 1000px;
   height: 400px;
 }
-* #ai-bd-section #machine-learning-section {
+* #technologies-section #machine-learning-section {
   display: flex;
   margin: 5% 0 5% 0;
 }
-* #ai-bd-section #machine-learning-section #machine-learning-description {
+* #technologies-section #machine-learning-section #machine-learning-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 90%;
 }
-* #ai-bd-section #machine-learning-section #machine-learning-graph {
+* #technologies-section #machine-learning-section #machine-learning-graph {
   width: 1000px;
   height: 400px;
 }
-* #ai-bd-section #big-data-section {
+* #technologies-section #big-data-section {
   display: flex;
   margin: 5% 0 5% 0;
 }
-* #ai-bd-section #big-data-section #big-data-description {
+* #technologies-section #big-data-section #big-data-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 90%;
 }
-* #ai-bd-section #big-data-section #big-data-description h4 {
+* #technologies-section #big-data-section #big-data-description h4 {
   margin: 3% 0 3% 0;
 }
-* #ai-bd-section #big-data-section #big-data-graph {
+* #technologies-section #big-data-section #big-data-graph {
   width: 1000px;
   height: 400px;
 }
-* #daw-section #daw-graph {
+* #technologies-section #daw-section {
+  display: flex;
+  margin: 5% 0 5% 0;
+}
+* #technologies-section #daw-section #daw-graph {
   width: 100%;
-  height: 550px;
+  height: 400px;
 }
-* #daw-section #daw-description {
+* #technologies-section #daw-section #daw-description {
   display: flex;
-  margin: 5% 0 5% 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
 }
 * #projects-section #projects-description {
   display: flex;

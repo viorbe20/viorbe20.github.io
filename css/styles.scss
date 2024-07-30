@@ -117,7 +117,7 @@ $light-violet: #a495b7;
         }
     }
     
-    #ai-bd-section {
+    #technologies-section {
 
         #nlp-section {
             display: flex;
@@ -183,20 +183,27 @@ $light-violet: #a495b7;
             }
         }
         
-    }
+        #daw-section {
 
-    #daw-section {
-
-        #daw-graph {
-            width: 100%;
-            height: 550px;
-        }
-
-        #daw-description {
             display: flex;
             margin: 5% 0 5% 0;
+
+            #daw-graph {
+                width: 100%;
+                height: 400px;
+            }
+    
+            #daw-description {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 90%;
+            }
         }
     }
+
+
 
     #projects-section {
 
