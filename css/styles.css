@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Montserrat", "Lato", sans-serif;
 }
+* h2 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
 * .navbar {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -212,21 +216,28 @@
   color: #333;
 }
 * #education-section #education-oficial-container {
-  background-color: #b0b795;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 * #education-section #education-oficial-container .card-oficial {
-  width: 30%;
+  width: 23%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  padding: 2%;
-  color: #ffffff;
+  padding: 1%;
+}
+* #education-section #education-oficial-container .card-oficial .card-header {
+  font-size: 2rem;
+  color: white;
+}
+* #education-section #education-oficial-container .card-oficial .card-body {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 10%;
 }
 * #education-section #education-oficial-container .card-oficial.tech {
-  background-color: #54e854;
+  background: linear-gradient(to bottom, #54e854 45%, transparent 50%);
 }
 * #education-section #education-oficial-container .card-oficial.lang {
-  background-color: #b07bce;
+  background: linear-gradient(to bottom, #b07bce 45%, transparent 50%);
 }/*# sourceMappingURL=styles.css.map */
