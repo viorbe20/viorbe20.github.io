@@ -212,7 +212,7 @@ $light-violet: #a495b7;
         }
 
         #projects-cards-ia {
-            background-color: rgb(183, 183, 223);
+            *background-color: rgb(183, 183, 223);
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
